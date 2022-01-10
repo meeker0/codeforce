@@ -6,7 +6,7 @@ from sympy import *
 def rem(_list):
     return list(filter(lambda v: type(v) != Add, _list))
 
-def no_Loop(input):
+def noLoop(input):
     x,y = symbols("x,y", intiger = True, negative =False)
     output = []
     m,n = input.split(' ')
